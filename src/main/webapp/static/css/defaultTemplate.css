@@ -1,0 +1,14 @@
+body{
+	background-color: #333333;
+	color: #DDDDDD;
+}
+.topheader{
+	background: #dd8000;
+}
+.contentwell{
+	background: #151515;
+	
+}
+input[type="text"]{
+	color: #000000;
+}

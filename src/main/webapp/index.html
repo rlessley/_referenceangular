@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Latest compiled JavaScript -->
+<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Import our angular! -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<!-- Custom css -->
+<link rel="stylesheet" type="text/css" href="static/css/defaultTemplate.css">
+
+<meta charset="ISO-8859-1">
+<title>Welcome To Angular Hell</title>
+</head>
+<!-- All good angular jounreys begin with 'ng-app' directive -->
+<body> <!-- use data-ng-app if yer a sqaure! -->
+	<div class="container">
+		<div class="well topheader">
+			<h1>Welcome To Angular!</h1>
+		</div>
+		<div class="well contentwell">
+			<h3>My First Angular!</h3>
+			<label for="stuff1">Input stuff here!</label>
+			<input type="text" ng-model="modelStuff1" name="stuff1" placeholder="Text Here">
+			<hr>
+			<h4><span style="color:#dd8000">Text</span>: {{modelStuff1}}</h4>
+		</div>
+	</div>
+</body>
+</html>
